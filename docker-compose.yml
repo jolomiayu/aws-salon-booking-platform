@@ -1,0 +1,11 @@
+services:
+
+  salon-app:
+    image: salon-app
+
+    container_name: salon-booking-container
+
+    ports:
+      - "8080:80"
+
+    restart: always
